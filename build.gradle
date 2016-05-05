@@ -1,7 +1,11 @@
 buildscript {
-    repositories { jcenter() }
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
     dependencies {
         classpath 'com.netflix.nebula:gradle-extra-configurations-plugin:2.2.0'
+        classpath 'com.google.appengine:gradle-appengine-plugin:1.9.34'
     }
 }
 
@@ -27,7 +31,7 @@ subprojects {
     }
 
     group = "com.netflix.${githubProjectName}"
-    
+
     sourceCompatibility = '1.7'
     targetCompatibility = '1.7'
 

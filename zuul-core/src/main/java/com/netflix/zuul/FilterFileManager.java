@@ -23,6 +23,7 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.runners.MockitoJUnitRunner;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import com.google.appengine;
 
 import java.io.File;
 import java.io.FilenameFilter;
